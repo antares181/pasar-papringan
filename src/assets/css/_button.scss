@@ -1,0 +1,22 @@
+.btn {
+  display: inline-block;
+  padding: 20px 30px;
+  color: $white;
+  @include font-14;
+}
+.btn-icon {
+  span {
+    &:first-child {
+      margin-right: 10px;
+    }
+  }
+}
+.btn-default {
+  border: none;
+  background: $black;
+  color: $white;
+}
+.btn-outline {
+  color: $black;
+  border: 1px solid $black;
+}

@@ -1,0 +1,74 @@
+@mixin font-12 {
+  font-size: 12px;
+}
+@mixin font-14 {
+  font-size: 14px;
+}
+@mixin font-16 {
+  font-size: 16px;
+}
+@mixin font-18 {
+  font-size: 18px;
+}
+@mixin font-20 {
+  font-size: 20px;
+}
+@mixin font-24 {
+  font-size: 24px;
+}
+@mixin font-30 {
+  font-size: 30px;
+}
+@mixin font-35 {
+  font-size: 35px;
+}
+@mixin bold {
+  font-family: 'Muli-Bold';
+}
+@mixin black {
+  font-family: 'Muli-Black';
+}
+
+.header {
+  @include font-35;
+}
+.header-bold {
+  @include font-35;
+  @include bold;
+}
+.header-black {
+  @include font-35;
+  @include black;
+}
+
+.title {
+  @include font-18;
+}
+.title-bold {
+  @include font-18;
+  @include bold;
+}
+.title-black {
+  @include font-18;
+  @include black;
+}
+
+.body {
+  @include font-14;
+}
+.body-bold {
+  @include font-14;
+  @include bold;
+}
+.body-black {
+  @include font-14;
+  @include black;
+}
+
+@mixin lh-20 {
+  line-height: 2;
+}
+
+@mixin lh-17 {
+  line-height: 1.7;
+}

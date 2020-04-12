@@ -1,0 +1,718 @@
+@import './_colors.scss';
+@import './_margin.scss';
+@import './_base.scss';
+@import './_icon.scss';
+@import './_typeface.scss';
+@import './_button.scss';
+
+.app {
+  visibility: hidden;
+  height: 100vh;
+  position: relative;
+  top: 80px;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  padding: 0 140px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+[class^='section-'] {
+  padding: 120px 0;
+}
+
+.navigation {
+  z-index: 10;
+  padding: 10px 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 0 140px;
+  .inner-navigation {
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    @include font-16;
+    @include bold;
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+
+    button {
+      @include font-16;
+      border: none;
+      background: none;
+      span {
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+.bg-top {
+  position: absolute;
+  width: 70%;
+  height: 860px;
+  background: $teal;
+  z-index: -1;
+  top: -150px;
+  overflow: hidden;
+}
+.home {
+  height: 716px;
+  .carousel {
+    display: flex;
+    padding-top: 30px;
+    @include mv-64;
+    .content–wrapper {
+      flex: 6;
+      width: 100%;
+      .inner-content {
+        @include mr-120;
+        .category {
+          @include font-16;
+          @include mb-16;
+          position: relative;
+          height: 23px;
+          position: relative;
+          overflow: hidden;
+          width: 100%;
+          .item {
+            position: absolute;
+            width: 100%;
+            &:after {
+              content: '';
+              height: 3px;
+              width: 80px;
+              position: absolute;
+              top: 10px;
+              left: 140px;
+              background: $teal-darken;
+            }
+          }
+        }
+        .title {
+          @include font-35;
+          @include mb-24;
+          height: 90px;
+          position: relative;
+          overflow: hidden;
+          width: 100%;
+          .item {
+            position: absolute;
+            width: 100%;
+          }
+        }
+        .body {
+          @include font-16;
+          @include mb-32;
+          @include lh-17;
+          height: 80px;
+          position: relative;
+          overflow: hidden;
+          width: 100%;
+          .item {
+            position: absolute;
+            width: 100%;
+          }
+        }
+        .header-social {
+          height: 60px;
+          position: relative;
+          overflow: hidden;
+          width: 100%;
+          @include mv-64;
+          .item {
+            position: absolute;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            button {
+              @include mr-32;
+            }
+            .social-list {
+              display: flex;
+              align-items: center;
+              img {
+                @include mr-16;
+              }
+            }
+          }
+        }
+      }
+      .logo-papri {
+        mix-blend-mode: darken;
+        display: block;
+        @include mb-32;
+      }
+    }
+    .image-wrapper {
+      align-items: flex-end;
+      justify-content: space-around;
+      flex: 5;
+      display: flex;
+      background-color: none;
+      width: 600px;
+      height: 100%;
+      flex-direction: column;
+      position: relative;
+      .image-container {
+        overflow: hidden;
+        width: 600px;
+        height: 500px;
+        img {
+          width: 600px;
+          height: 100%;
+          overflow: hidden;
+          position: absolute;
+          top: 0;
+          left: 0;
+          object-fit: cover;
+          object-position: center;
+        }
+      }
+      .carousel-pointer {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        width: 100%;
+        justify-content: space-between;
+        position: absolute;
+        bottom: -23%;
+        width: 150px;
+        right: 0px;
+        [class^="item"] {
+          height: 20px;
+          width: 20px;
+        }
+        .item {
+          background-color: $teal;
+        }
+        .item-active {
+          background-color: $black;
+        }
+      }
+    }
+  }
+}
+
+.title {
+  @include mb-64;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .left {
+    width: 450px;
+    .sub-title {
+      @include font-14;
+      @include mb-16;
+    }
+    .title-inner {
+      @include font-35;
+    }
+  }
+  .right {
+    color: $grey;
+  }
+}
+
+.section-about {
+  position: relative;
+  .inner-section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    .card-first {
+      @include mr-32;
+    }
+    .card-last {
+      @include ml-32;
+    }
+    .card-main {
+      @include mh-32;
+    }
+    [class^='card-'] {
+      flex: 1;
+      position: relative;
+      .index {
+        padding: 15px 15px;
+        background-color: $white;
+        position: absolute;
+        top: 0;
+        left: 0;
+        @include font-16;
+      }
+      .image {
+        height: 300px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        object-position: center;
+        @include mb-24;
+      }
+      .title {
+        @include font-20;
+        @include bold;
+        @include mb-24;
+      }
+      .description {
+        @include font-16;
+        @include lh-20;
+      }
+    }
+  }
+}
+
+.big-menu {
+  display: none;
+  z-index: 9;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  .footer-menu {
+    position: absolute;
+    bottom: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .address {
+      display: flex;
+      align-items: center;
+      span {
+        margin-right: 10px;
+        padding: 10px 10px;
+        background: $teal;
+      }
+      .detailAddress {
+        @include font-14
+      }
+    }
+    .social-media {
+      display: flex;
+      align-items: center;
+      .our-social-media {
+        @include mr-32
+      }
+      .social-list {
+        display: flex;
+        align-items: center;
+        img {
+          @include mr-32;
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+  .big-menu-secondary {
+    background-color: $black;
+    z-index: -2;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+  }
+  .menu-layer {
+    // position: relative;
+    height: 100%;
+    background: white;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .menu-left {
+      padding: 120px;
+      flex: 1;
+      background: $white;
+      height: 100%;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      .menu-wrapper {
+        height: 100px;
+        overflow: hidden;
+        position: relative;
+        .item {
+          font-size: 70px;
+          color: $black;
+          @include black;
+          cursor: pointer;
+          position: absolute;
+          z-index: 1;
+          &:hover {
+            .sub-item {
+              z-index: -1;
+              position: absolute;
+              left: 20px;
+              bottom: -5px;
+              height: 30px;
+              background: $teal;
+              animation-name: hover;
+              animation-duration: .3s; 
+              animation-timing-function: cubic-bezier(.56,.11,.17,1.01); 
+              animation-delay: 0s;
+              animation-direction: alternate;
+              animation-iteration-count: 1;
+              animation-fill-mode: forwards;
+              animation-play-state: running; 
+            }
+          }
+        }
+      }
+    }
+    .menu-right {
+      padding: 120px;
+      flex: 1;
+      height: 100%;
+      background: $teal;
+      display: flex;
+      align-items: center;
+      .menu-wrapper {
+        .sub-menu {
+          @include font-20;
+          @include mb-24;
+          opacity: .4;
+        }
+        .item {
+          animation-name: show;
+          animation-duration: 1s; 
+          animation-timing-function: cubic-bezier(.56,.11,.17,1.01); 
+          animation-delay: 0s;
+          animation-direction: alternate;
+          animation-iteration-count: 1;
+          animation-fill-mode: forwards;
+          animation-play-state: running; 
+          @include font-30;
+          @include mb-24;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.bg-schedule {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  width: 40%;
+  height: 100%;
+  background-color: $teal;         
+}
+
+.section-schedule {
+  // height: 100% + 20%;
+  position: relative;
+  .inner-section {
+    display: flex;
+    align-items: center;
+    .left-section {
+      flex: 1;
+      .schedule {
+        display: flex;
+        align-items: flex-end;
+        max-width: 450px;
+        &:first-child {
+          @include mb-64;
+        }
+        span {
+          @include font-35;
+          @include mr-20;
+          padding: 33px;
+          background-color: $teal;
+        }
+        .date {
+          @include font-35;
+          @include mb-8;
+        }
+        .detail {
+          @include font-16;
+          @include lh-17;
+        }
+      }
+    }
+    .right-section {
+      flex: 1;
+      display: flex;
+      align-items: flex-start;
+      height: 500px;
+      .left {
+        flex: 1;
+        width: 120px;
+        height: 100%;
+        @include mr-24;
+        img {
+          width: 100%;
+          height: inherit;
+          object-fit: cover;
+          object-position: center;
+        }
+      }
+      .right {
+        flex: 1;
+        height: 236px;
+        width: 100%;
+        img {
+          height: inherit;
+          width: 100%;
+          object-fit: cover;
+          object-position: center;
+          &:last-child {
+            @include mt-24;
+          }
+        }
+      }
+    }
+  }
+}
+
+.side {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  background-color: $teal;
+  width: 300px;
+  span {
+    font-size: 220px;
+    z-index: 5;
+    position: absolute;
+    bottom: 50px;
+    left: 14px;
+  }
+}
+.separator {
+  border-bottom: 1px solid rgb(244, 244, 244);
+}
+.separator-top {
+  border-top: 1px solid rgb(244, 244, 244);
+}
+.section-facility {
+  margin-top: 100px;
+  margin-left: 240px;
+  .icon-ornament-1 {
+    font-size: 160px;
+    z-index: 5;
+    position: absolute;
+    top: 50px;
+    right: 14px;
+  }
+  .inner-section {
+    height:100%;
+    display: flex;
+    flex-direction: row;
+    .content {
+      .video-container {
+        width: 100%;
+        position: relative;
+        height: 300px;
+        background-color: $black;
+        img {
+          height: inherit;
+          object-fit: cover;
+          width: inherit;
+          object-position: center;
+        }
+        .play-square {
+          cursor: pointer;
+          position: absolute;
+          bottom: 20px;
+          left: 20px;
+          display: flex;
+          align-items: center;
+          color: $black;
+          background-color: $white;
+          padding: 20px 25px;
+          .icon-calendar {
+            @include font-16;
+            @include mr-24;
+          }
+        }
+      }
+      .lists {
+        @include mt-32;
+        display: flex;
+        flex-direction: row;
+        .left {
+          @include mr-120;
+          .item-wrapper {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            @include mb-32;
+            span {
+              background: $teal;
+              padding: 20px;
+              @include mr-20;
+              @include font-24;
+            }
+            .item {
+              .item-title {
+                @include bold;
+                @include font-24
+              }
+            }
+          }
+        }
+        .right {
+          .item-wrapper {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            @include mb-32;
+            span {
+              background: $teal;
+              padding: 20px;
+              @include mr-20;
+              @include font-24;
+            }
+            .item {
+              .item-title {
+                @include bold;
+                @include font-24
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.section-location {
+  position: relative;
+  .inner-section{
+    .location {
+      display: flex;
+      align-items: center;
+      @include mb-32;
+      .icon-wrapper {
+        padding: 15px;
+        background-color: $teal;
+        span {
+          @include font-20;
+        }
+      }
+      .address {
+        @include ml-20;
+        @include font-20;
+      }
+    }
+  }
+}
+
+.sponsors-area {
+  padding: 0px 0 120px 0;
+  position: relative;
+  .inner-section-sponsors {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+} 
+
+.footer-bg {
+  background-color: #fafafa;
+}
+
+.footer-wrapper {
+  padding: 80px 0;
+  .footer-top {
+    display: flex;
+    align-items: flex-start;
+    .description-meta {
+      flex: 2;
+      .logo-papri-footer {
+        mix-blend-mode: darken;
+      }
+      .trade-title {
+        @include mt-32;
+        @include bold;
+        @include font-20;
+      }
+      .trade-desc {
+        max-width: 350px;
+        @include lh-17;
+        @include mt-20;
+      }
+    }
+    .meta–navigation {
+      flex: 3;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      .item-meta {
+        .title-meta {
+          @include font-20;
+          @include bold;
+          @include mb-32;
+        }
+        .data-meta {
+          @include font-16;
+          @include mb-20;
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+  .footer-bottom {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .trademark {
+      @include font-16;
+    }
+    .social-meta {
+      display: flex;
+      align-items: center;
+      img {
+        height: 40px;
+        @include mr-24;
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
+
+@keyframes hover {
+  0% {
+    width: 0%
+  }
+  100% {
+    width: 100%
+  }
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

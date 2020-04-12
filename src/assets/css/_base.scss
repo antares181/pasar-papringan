@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'Muli-Regular';
+  src: url('../fonts/Muli-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Muli-Bold';
+  src: url('../fonts/Muli-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Muli-Black';
+  src: url('../fonts/Muli-Black.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+::selection {
+  background-color: $teal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Muli-Regular';
+}
+
+a, a:hover, a:focus {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+  &:focus {
+    outline: none;
+  }
+  &:active {
+    outline: none;
+  }
+}

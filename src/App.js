@@ -1,25 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useRef, useEffect } from 'react';
+import './assets/css/app.scss';
+import Header from './components/Header';
+import Home from './pages/Home';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { TweenMax, TimelineLite } from 'gsap';
 
 function App() {
+  let app = useRef(null);
+  let tl = new TimelineLite({ delay: .8 });
+
+  useEffect(() => {
+    TweenMax.to(app, 0, { css: { visibility: 'visible' } })
+  }, [tl])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className='app' ref={el => app = el}>
+        <Header />
+        <Switch>
+          <Route exact path='/' component={Home} />
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
