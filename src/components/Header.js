@@ -93,7 +93,7 @@ const Header = ({history}) => {
         <div className="navigation visibility">
           <div className="inner-navigation">
             <div className="logo">
-              <Link to="/">Pasar Papringan</Link>
+              <Link to="/pasar-papringan">Pasar Papringan v.1.6</Link>
             </div>
             <div className="menu">
               <button disabled={disabled} onClick={handleMenu}>

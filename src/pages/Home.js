@@ -28,7 +28,7 @@ import { useIntersection } from 'react-use';
 
 const Home = ({state}) => {
   return (
-    <>
+    <div>
       <SectionHeader/> 
       <SectionAbout/>
       <SectionSchedule/>
@@ -36,7 +36,7 @@ const Home = ({state}) => {
       <SectionLocation/>
       <SectionSponsor/>
       <SectionFooter/>
-    </>
+    </div>
   )
 }
 
