@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/antares181/pasar-papringan/static/css/main.186d7619.chunk.css",
+    "main.js": "/antares181/pasar-papringan/static/js/main.112740a1.chunk.js",
+    "main.js.map": "/antares181/pasar-papringan/static/js/main.112740a1.chunk.js.map",
+    "runtime-main.js": "/antares181/pasar-papringan/static/js/runtime-main.b34c751d.js",
+    "runtime-main.js.map": "/antares181/pasar-papringan/static/js/runtime-main.b34c751d.js.map",
+    "static/js/2.6dc76763.chunk.js": "/antares181/pasar-papringan/static/js/2.6dc76763.chunk.js",
+    "static/js/2.6dc76763.chunk.js.map": "/antares181/pasar-papringan/static/js/2.6dc76763.chunk.js.map",
+    "index.html": "/antares181/pasar-papringan/index.html",
+    "precache-manifest.d8706cd25a3dc18c97af15b9b40a6ae9.js": "/antares181/pasar-papringan/precache-manifest.d8706cd25a3dc18c97af15b9b40a6ae9.js",
+    "service-worker.js": "/antares181/pasar-papringan/service-worker.js",
+    "static/css/main.186d7619.chunk.css.map": "/antares181/pasar-papringan/static/css/main.186d7619.chunk.css.map",
+    "static/js/2.6dc76763.chunk.js.LICENSE.txt": "/antares181/pasar-papringan/static/js/2.6dc76763.chunk.js.LICENSE.txt",
+    "static/media/app.scss": "/antares181/pasar-papringan/static/media/icomoon.d34d2fcf.ttf",
+    "static/media/about-image-1.png": "/antares181/pasar-papringan/static/media/about-image-1.fa7d5538.png",
+    "static/media/header-image.png": "/antares181/pasar-papringan/static/media/header-image.62d54e5d.png",
+    "static/media/icon-facebook.svg": "/antares181/pasar-papringan/static/media/icon-facebook.7eedbb7c.svg",
+    "static/media/icon-instagram.svg": "/antares181/pasar-papringan/static/media/icon-instagram.13ad3a7b.svg",
+    "static/media/icon-twitter.svg": "/antares181/pasar-papringan/static/media/icon-twitter.e6297aa0.svg",
+    "static/media/icon-youtube.svg": "/antares181/pasar-papringan/static/media/icon-youtube.52e8ce25.svg",
+    "static/media/image-video.png": "/antares181/pasar-papringan/static/media/image-video.b4d6eaf8.png",
+    "static/media/logo-papri.png": "/antares181/pasar-papringan/static/media/logo-papri.716bf7f7.png",
+    "static/media/schedule-image-1.png": "/antares181/pasar-papringan/static/media/schedule-image-1.066b72df.png",
+    "static/media/schedule-image-2.png": "/antares181/pasar-papringan/static/media/schedule-image-2.2c46e203.png",
+    "static/media/schedule-image-3.png": "/antares181/pasar-papringan/static/media/schedule-image-3.627a8ac7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b34c751d.js",
+    "static/js/2.6dc76763.chunk.js",
+    "static/css/main.186d7619.chunk.css",
+    "static/js/main.112740a1.chunk.js"
+  ]
+}
