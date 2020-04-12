@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/pasar-papringan/static/css/main.aff4e501.chunk.css",
-    "main.js": "/pasar-papringan/static/js/main.acaf5403.chunk.js",
-    "main.js.map": "/pasar-papringan/static/js/main.acaf5403.chunk.js.map",
+    "main.js": "/pasar-papringan/static/js/main.206d52ae.chunk.js",
+    "main.js.map": "/pasar-papringan/static/js/main.206d52ae.chunk.js.map",
     "runtime-main.js": "/pasar-papringan/static/js/runtime-main.70e2142f.js",
     "runtime-main.js.map": "/pasar-papringan/static/js/runtime-main.70e2142f.js.map",
     "static/js/2.727ab6ad.chunk.js": "/pasar-papringan/static/js/2.727ab6ad.chunk.js",
     "static/js/2.727ab6ad.chunk.js.map": "/pasar-papringan/static/js/2.727ab6ad.chunk.js.map",
     "index.html": "/pasar-papringan/index.html",
-    "precache-manifest.584820713ba79853d970768d0edd582f.js": "/pasar-papringan/precache-manifest.584820713ba79853d970768d0edd582f.js",
+    "precache-manifest.a437b2aa90e43052b78d7cf0b6d0a1b3.js": "/pasar-papringan/precache-manifest.a437b2aa90e43052b78d7cf0b6d0a1b3.js",
     "service-worker.js": "/pasar-papringan/service-worker.js",
     "static/css/main.aff4e501.chunk.css.map": "/pasar-papringan/static/css/main.aff4e501.chunk.css.map",
     "static/js/2.727ab6ad.chunk.js.LICENSE.txt": "/pasar-papringan/static/js/2.727ab6ad.chunk.js.LICENSE.txt",
@@ -29,6 +29,6 @@
     "static/js/runtime-main.70e2142f.js",
     "static/js/2.727ab6ad.chunk.js",
     "static/css/main.aff4e501.chunk.css",
-    "static/js/main.acaf5403.chunk.js"
+    "static/js/main.206d52ae.chunk.js"
   ]
 }
