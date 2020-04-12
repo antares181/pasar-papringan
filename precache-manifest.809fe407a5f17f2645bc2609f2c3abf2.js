@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "94168e021a08b2becbcc53c04306ce3d",
+    "revision": "58b2673d831f984a175659a0ddfb8c3a",
     "url": "/pasar-papringan/index.html"
   },
   {
-    "revision": "3b7fec956bb825b7d0e5",
+    "revision": "43794f077f414a3b4bc7",
     "url": "/pasar-papringan/static/css/main.aff4e501.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pasar-papringan/static/js/2.727ab6ad.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3b7fec956bb825b7d0e5",
-    "url": "/pasar-papringan/static/js/main.206d52ae.chunk.js"
+    "revision": "43794f077f414a3b4bc7",
+    "url": "/pasar-papringan/static/js/main.b2f56f1d.chunk.js"
   },
   {
     "revision": "60337fc69c91d818512a",
