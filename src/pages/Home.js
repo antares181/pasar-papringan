@@ -1,9 +1,9 @@
 import React, { useRef, useEffect } from 'react';
 import Logo from './../assets/icons/logo-papri.png';
-import Image1 from './../assets/images/header-image.png';
+import Image1 from './../assets/images/header-image.webp';
 import Button from '../components/Button';
 import { buttonReadArticle } from '../utils/config';
-import ImageAbout from '../assets/images/about-image-1.png'
+import ImageAbout from '../assets/images/about-image-1.webp'
 import SectionTitle from '../components/SectionTitle';
 import Instagram from '../assets/icons/icon-instagram.svg';
 import Twitter from '../assets/icons/icon-twitter.svg';
@@ -11,10 +11,10 @@ import Facebook from '../assets/icons/icon-facebook.svg';
 import Youtube from '../assets/icons/icon-youtube.svg';
 import Icon from '../components/Icon';
 
-import ImageSchedule1 from '../assets/images/schedule-image-1.png';
-import ImageSchedule2 from '../assets/images/schedule-image-2.png';
-import ImageSchedule3 from '../assets/images/schedule-image-3.png';
-import ImageVideo from '../assets/images/image-video.png';
+import ImageSchedule1 from '../assets/images/schedule-image-1.webp';
+import ImageSchedule2 from '../assets/images/schedule-image-2.webp';
+import ImageSchedule3 from '../assets/images/schedule-image-3.webp';
+import ImageVideo from '../assets/images/image-video.webp';
 
 import SponsorYoutube from '../assets/images/sponsor-adobe.png';
 import SponsorSlack from '../assets/images/sponsor-slack.png';
