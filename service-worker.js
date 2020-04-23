@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/pasar-papringan/precache-manifest.84e5ddf959f96644cb27e03fed04e660.js"
+  "/pasar-papringan/precache-manifest.3d0508f019e1e32327efbb724a7e9ba2.js"
 );
 
 self.addEventListener('message', (event) => {

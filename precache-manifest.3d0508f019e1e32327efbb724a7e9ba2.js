@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "134870e1336027ee4e7ccad89c32e792",
+    "revision": "7d89d5cf055e5f336aa1da7f0f95b97b",
     "url": "/pasar-papringan/index.html"
   },
   {
-    "revision": "d08e071df851118fc69d",
+    "revision": "19a383b88e75022fbadc",
     "url": "/pasar-papringan/static/css/main.aff4e501.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pasar-papringan/static/js/2.727ab6ad.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d08e071df851118fc69d",
-    "url": "/pasar-papringan/static/js/main.4043feff.chunk.js"
+    "revision": "19a383b88e75022fbadc",
+    "url": "/pasar-papringan/static/js/main.4f88ef18.chunk.js"
   },
   {
     "revision": "60337fc69c91d818512a",
@@ -36,12 +36,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pasar-papringan/static/media/Muli-Regular.328d5579.ttf"
   },
   {
-    "revision": "fa7d5538f03583a5643ff4de5e9917c2",
-    "url": "/pasar-papringan/static/media/about-image-1.fa7d5538.png"
+    "revision": "4124c6e0d1fd3e099f74848a1bd78030",
+    "url": "/pasar-papringan/static/media/about-image-1.4124c6e0.webp"
   },
   {
-    "revision": "62d54e5db83eb7d006d9ebb113e4099d",
-    "url": "/pasar-papringan/static/media/header-image.62d54e5d.png"
+    "revision": "7b124b357b37a239ec518e1eb4cf0af0",
+    "url": "/pasar-papringan/static/media/header-image.7b124b35.webp"
   },
   {
     "revision": "227009ea8f0e1b3b97b8e8a5d3ef7907",
@@ -76,23 +76,23 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pasar-papringan/static/media/icon-youtube.52e8ce25.svg"
   },
   {
-    "revision": "b4d6eaf85ea66a76daf14e2274d27735",
-    "url": "/pasar-papringan/static/media/image-video.b4d6eaf8.png"
+    "revision": "b497febcef2265f06489c18433bafb10",
+    "url": "/pasar-papringan/static/media/image-video.b497febc.webp"
   },
   {
     "revision": "716bf7f72bb5c338db71c276e4eb668e",
     "url": "/pasar-papringan/static/media/logo-papri.716bf7f7.png"
   },
   {
-    "revision": "066b72df37df2dc66fcc2e70565385b0",
-    "url": "/pasar-papringan/static/media/schedule-image-1.066b72df.png"
+    "revision": "7ed39d7e226127e1ceab4fb2143063d8",
+    "url": "/pasar-papringan/static/media/schedule-image-1.7ed39d7e.webp"
   },
   {
-    "revision": "2c46e2038f576045caaa6682323e5e60",
-    "url": "/pasar-papringan/static/media/schedule-image-2.2c46e203.png"
+    "revision": "04d667e1e8dfdc9460f1218f5920070e",
+    "url": "/pasar-papringan/static/media/schedule-image-2.04d667e1.webp"
   },
   {
-    "revision": "627a8ac7497d660495b9df720cc415bb",
-    "url": "/pasar-papringan/static/media/schedule-image-3.627a8ac7.png"
+    "revision": "e326028ec2e79876fd1d85f6cb209596",
+    "url": "/pasar-papringan/static/media/schedule-image-3.e326028e.webp"
   }
 ]);

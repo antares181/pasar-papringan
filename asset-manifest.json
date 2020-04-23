@@ -1,34 +1,34 @@
 {
   "files": {
     "main.css": "/pasar-papringan/static/css/main.aff4e501.chunk.css",
-    "main.js": "/pasar-papringan/static/js/main.4043feff.chunk.js",
-    "main.js.map": "/pasar-papringan/static/js/main.4043feff.chunk.js.map",
+    "main.js": "/pasar-papringan/static/js/main.4f88ef18.chunk.js",
+    "main.js.map": "/pasar-papringan/static/js/main.4f88ef18.chunk.js.map",
     "runtime-main.js": "/pasar-papringan/static/js/runtime-main.70e2142f.js",
     "runtime-main.js.map": "/pasar-papringan/static/js/runtime-main.70e2142f.js.map",
     "static/js/2.727ab6ad.chunk.js": "/pasar-papringan/static/js/2.727ab6ad.chunk.js",
     "static/js/2.727ab6ad.chunk.js.map": "/pasar-papringan/static/js/2.727ab6ad.chunk.js.map",
     "index.html": "/pasar-papringan/index.html",
-    "precache-manifest.84e5ddf959f96644cb27e03fed04e660.js": "/pasar-papringan/precache-manifest.84e5ddf959f96644cb27e03fed04e660.js",
+    "precache-manifest.3d0508f019e1e32327efbb724a7e9ba2.js": "/pasar-papringan/precache-manifest.3d0508f019e1e32327efbb724a7e9ba2.js",
     "service-worker.js": "/pasar-papringan/service-worker.js",
     "static/css/main.aff4e501.chunk.css.map": "/pasar-papringan/static/css/main.aff4e501.chunk.css.map",
     "static/js/2.727ab6ad.chunk.js.LICENSE.txt": "/pasar-papringan/static/js/2.727ab6ad.chunk.js.LICENSE.txt",
     "static/media/app.scss": "/pasar-papringan/static/media/icomoon.d34d2fcf.ttf",
-    "static/media/about-image-1.png": "/pasar-papringan/static/media/about-image-1.fa7d5538.png",
-    "static/media/header-image.png": "/pasar-papringan/static/media/header-image.62d54e5d.png",
+    "static/media/about-image-1.webp": "/pasar-papringan/static/media/about-image-1.4124c6e0.webp",
+    "static/media/header-image.webp": "/pasar-papringan/static/media/header-image.7b124b35.webp",
     "static/media/icon-facebook.svg": "/pasar-papringan/static/media/icon-facebook.7eedbb7c.svg",
     "static/media/icon-instagram.svg": "/pasar-papringan/static/media/icon-instagram.13ad3a7b.svg",
     "static/media/icon-twitter.svg": "/pasar-papringan/static/media/icon-twitter.e6297aa0.svg",
     "static/media/icon-youtube.svg": "/pasar-papringan/static/media/icon-youtube.52e8ce25.svg",
-    "static/media/image-video.png": "/pasar-papringan/static/media/image-video.b4d6eaf8.png",
+    "static/media/image-video.webp": "/pasar-papringan/static/media/image-video.b497febc.webp",
     "static/media/logo-papri.png": "/pasar-papringan/static/media/logo-papri.716bf7f7.png",
-    "static/media/schedule-image-1.png": "/pasar-papringan/static/media/schedule-image-1.066b72df.png",
-    "static/media/schedule-image-2.png": "/pasar-papringan/static/media/schedule-image-2.2c46e203.png",
-    "static/media/schedule-image-3.png": "/pasar-papringan/static/media/schedule-image-3.627a8ac7.png"
+    "static/media/schedule-image-1.webp": "/pasar-papringan/static/media/schedule-image-1.7ed39d7e.webp",
+    "static/media/schedule-image-2.webp": "/pasar-papringan/static/media/schedule-image-2.04d667e1.webp",
+    "static/media/schedule-image-3.webp": "/pasar-papringan/static/media/schedule-image-3.e326028e.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.70e2142f.js",
     "static/js/2.727ab6ad.chunk.js",
     "static/css/main.aff4e501.chunk.css",
-    "static/js/main.4043feff.chunk.js"
+    "static/js/main.4f88ef18.chunk.js"
   ]
 }
